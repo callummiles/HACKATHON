@@ -38,6 +38,7 @@ function changeImage() {
     });
 }
 changeImage();
+setInterval(changeImage, 10000);
 
 //contents.parentNode.appendChild(img);
 //contents.parentNode.removeChild(contents);
