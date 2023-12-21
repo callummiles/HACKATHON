@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ECRIfy Your Browser",
+  "version": "1.0",
+  "description": "Make Your Website 1000 Times Better With ECRI Instructors & Fellows",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.min.js", "./main.js"]
+    }
+  ]
+}
